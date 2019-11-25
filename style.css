@@ -1,0 +1,127 @@
+header {
+    top: 0px;
+    left: 0px;
+    width: 1500px;
+    height: 319px;
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.box {
+	
+    width: 940px;
+    height: 300px;
+	margin: 0 auto;
+}
+
+.head-top {
+    position: absolute;
+    top: 69px;
+    left: 635px;
+    width: 227px;
+    height: 23px;
+    text-align: left;
+    font: Normal 20px/24px Helvetica Neue;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.head-center {
+    position: absolute;
+    top: 92px;
+    left: 571px;
+    width: 358px;
+    height: 48px;
+    text-align: center;
+    font: Bold 40px/49px Helvetica Neue;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.head-botton {
+    position: absolute;
+    top: 164px;
+    left: 476px;
+    width: 548px;
+    height: 16px;
+    text-align: center;
+    font: Normal 14px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+nav {
+    position: absolute;
+    top: 230px;
+    left: 371px;
+}
+
+.links li {
+    display: inline;
+
+}
+
+.iten1 {
+    width: 160px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #00000029;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    padding: 5px;
+}
+
+.iten1 a {
+    width: 98px;
+    height: 16px;
+    text-align: center;
+    font: normal 14px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+    margin: 12px 31px;
+}
+
+.iten2 {
+    display: inline-block;
+    top: 230px;
+    left: 571px;
+    width: 160px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #00000029;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.iten3 {
+    display: inline-block;
+    top: 230px;
+    left: 771px;
+    width: 160px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #00000029;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.iten4 {
+    display: inline-block;
+    top: 230px;
+    left: 971px;
+    width: 160px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #00000029;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
