@@ -295,6 +295,104 @@ h2 {
     padding: 11px 36px 10px 37px;
 }
 
+h3 {
+    position: absolute;
+    top: 1425px;
+    left: 655px;
+    width: 204px;
+    height: 22px;
+    text-align: left;
+    font: Bold 18px/16px Helvetica;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+.form-descr {
+    position: absolute;
+    top: 1491px;
+    left: 483px;
+    width: 534px;
+    height: 16px;
+    text-align: center;
+    font: 14px/16px Helvetica;
+    letter-spacing: 0;
+    color: #888888;
+}
+
+
+form {
+    position: absolute;
+    top: 1546px;
+    left: 390px;
+    width: 720px;
+    height: 51px;
+    opacity: 1;
+}
+
+.name-label{
+   
+    width: 112px;
+    height: 14px;
+    text-align: left;
+    font: 12px/14px Helvetica;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+    margin-bottom: 7px;
+}
+
+.in-name {
+    position: absolute;
+    display: block;
+    width: 340px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.mail-label {
+    position: absolute;
+    margin-left: 268px;
+    width: 39px;
+    height: 14px;
+    text-align: left;
+    font: 12px/14px Helvetica;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+    margin-bottom: 7px;
+}
+
+.in-mail {
+    position: absolute;
+    display: block;
+    margin-left: 380px;
+    width: 340px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.send {
+    position: absolute;
+    top: 101px;
+    left: 230px;
+    width: 260px;
+    height: 39px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: left;
+    font: 16px/16px Helvetica;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+    padding: 11px 85px 10px 86px;
+}
 
 footer {
     position: absolute;
