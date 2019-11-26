@@ -52,13 +52,13 @@ header {
     opacity: 1;
 }
 
-ul {
+.links {
     position: absolute;
     top: 230px;
     left: 371px;
 }
 
-ul li {
+.links li {
     display: inline-block;
     width: 160px;
     height: 40px;
@@ -72,7 +72,7 @@ ul li {
     margin-right: 40px;
 }
 
-ul a {
+.links a {
     font: 14px/16px Helvetica;
     letter-spacing: 0;
     color: #888888;
@@ -80,4 +80,166 @@ ul a {
     width: 98px;
     height: 16px;
     line-height: 40px;
+}
+
+h2 {
+    position: absolute;
+    top: 360px;
+    left: 649px;
+    width: 215px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: left;
+    font: Bold 18px/16px Helvetica;
+    letter-spacing: 0;
+    color: #888888;
+    padding: 8px 17px 10px;
+}
+
+.prod {
+    position: absolute;
+    top: 440px;
+    left: 285px;
+    width: 931px;
+    height: 740px;
+    opacity: 1;
+}
+
+.pos {
+    position: relative;
+}
+
+.first-prod {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+
+.img {
+    width: 200px;
+    height: 150px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.name-prod {
+    position: absolute;
+    top: 164px;
+    left: 0px;
+    width: 111px;
+    height: 16px;
+    text-align: left;
+    font: 14px/16px Helvetica;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+.descri {
+    position: absolute;
+    top: 190px;
+    left: 1px;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font: 12px/16px Helvetica;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+.price {
+    position: absolute;
+    top: 250px;
+    left: 1px;
+    width: 70px;
+    height: 14px;
+    text-align: left;
+    font: 12px/16px Helvetica;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+.discount-price {
+    position: absolute;
+    top: 270px;
+    left: 1px;
+    bottom: 61px;
+    width: 99px;
+    height: 19px;
+    text-align: left;
+    font: Bold 16px/16px Helvetica;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+.parcel {
+    position: absolute;
+    top: 296px;
+    left: 1px;
+    width: 88px;
+    height: 14px;
+    text-align: left;
+    font: 12px/16px Helvetica;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+.button {
+    position: absolute;
+    top: 320px;
+    left: 1px;
+    width: 200px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: left;
+    font: Regular 16px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    padding: 6px 68px 6px 69px;
+}
+
+.second-prod {
+    position: absolute;
+    top: 0px;
+    left: 241px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+
+footer {
+    position: absolute;
+    top: 1828px;
+    left: 0px;
+    width: 1500px;
+    height: 186.64px;
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.foot {
+    position: relative;
+    top: 64.64px;
+    left: 620px;
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    font: 12px/18px Helvetica;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    white-space: pre-line;
 }
