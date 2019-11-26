@@ -106,7 +106,7 @@ h2 {
     opacity: 1;
 }
 
-.pos {
+.pos1 {
     position: relative;
 }
 
@@ -218,6 +218,83 @@ h2 {
     height: 350px;
     opacity: 1;
 }
+
+.third-prod {
+    position: absolute;
+    top: 0px;
+    left: 482px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+
+.fourth-prod {
+    position: absolute;
+    top: 0px;
+    left: 723px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+
+.pos2 {
+    position: relative;
+}
+
+.first-prod2 {
+    position: absolute;
+    top: 389px;
+    left: 0px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+
+.second-prod2 {
+    position: absolute;
+    top: 389px;
+    left: 241px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+
+.third-prod2 {
+    position: absolute;
+    top: 389px;
+    left: 482px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+
+.fourth-prod2 {
+    position: absolute;
+    top: 389px;
+    left: 723px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+
+.more-prod {
+    position: absolute;
+    top: 1222px;
+    left: 620px;
+    width: 260px;
+    height: 39px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: left;
+    font: 16px/16px Helvetica;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+    padding: 11px 36px 10px 37px;
+}
+
 
 footer {
     position: absolute;
