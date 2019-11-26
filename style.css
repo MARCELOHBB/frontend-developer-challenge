@@ -1,5 +1,5 @@
 header {
-    position: relative;
+    position: absolute;
     top: 0px;
     left: 0px;
     width: 1500px;
@@ -82,11 +82,19 @@ header {
     line-height: 40px;
 }
 
+main {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1500px;
+    height: 2015px;
+}
+
 h2 {
     position: absolute;
-    top: 360px;
+    top: 18.263%;
     left: 649px;
-    width: 215px;
+    width: 44.4%;
     height: 40px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -99,8 +107,8 @@ h2 {
 
 .prod {
     position: absolute;
-    top: 440px;
-    left: 285px;
+    top: 21.836%;
+    left: 19%;
     width: 931px;
     height: 740px;
     opacity: 1;
@@ -279,8 +287,8 @@ h2 {
 
 .more-prod {
     position: absolute;
-    top: 1222px;
-    left: 620px;
+    top: 60.645%;
+    left: 41.333%;
     width: 260px;
     height: 39px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -297,8 +305,8 @@ h2 {
 
 h3 {
     position: absolute;
-    top: 1425px;
-    left: 655px;
+    top: 70.719%;
+    left: 43.666%;
     width: 204px;
     height: 22px;
     text-align: left;
@@ -310,8 +318,8 @@ h3 {
 
 .form-descr {
     position: absolute;
-    top: 1491px;
-    left: 483px;
+    top: 73.995%;
+    left: 32.2%;
     width: 534px;
     height: 16px;
     text-align: center;
@@ -323,15 +331,14 @@ h3 {
 
 form {
     position: absolute;
-    top: 1546px;
-    left: 390px;
+    top: 76.724%;
+    left: 26%;
     width: 720px;
     height: 51px;
     opacity: 1;
 }
 
 .name-label{
-   
     width: 112px;
     height: 14px;
     text-align: left;
@@ -339,7 +346,6 @@ form {
     letter-spacing: 0;
     color: #888888;
     opacity: 1;
-    margin-bottom: 7px;
 }
 
 .in-name {
@@ -350,10 +356,10 @@ form {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
+    margin-top: 7px;
 }
 
 .mail-label {
-    position: absolute;
     margin-left: 268px;
     width: 39px;
     height: 14px;
@@ -362,7 +368,6 @@ form {
     letter-spacing: 0;
     color: #888888;
     opacity: 1;
-    margin-bottom: 7px;
 }
 
 .in-mail {
@@ -374,12 +379,13 @@ form {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
+    margin-top: 7px;
 }
 
 .send {
     position: absolute;
-    top: 101px;
-    left: 230px;
+    top: 81.736%;
+    left: 41.3333%;
     width: 260px;
     height: 39px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
