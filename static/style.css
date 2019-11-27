@@ -286,6 +286,46 @@ h2 {
     opacity: 1;
 }
 
+.pos-create {
+    position: relative;
+}
+
+.first-prod-create {
+    position: absolute;
+    top: 57.837%;
+    left: 0px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+
+.second-prod-create {
+    position: absolute;
+    top: 57.837%;
+    left: 241px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+
+.third-prod-create {
+    position: absolute;
+    top: 57.837%;
+    left: 482px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+
+.fourth-prod-create {
+    position: absolute;
+    top: 57.837%;
+    left: 723px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+
 .more-prod {
     position: absolute;
     top: 60.645%;
