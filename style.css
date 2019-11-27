@@ -199,6 +199,7 @@ h2 {
     letter-spacing: 0;
     color: #888888;
     opacity: 1;
+    white-space: nowrap
 }
 
 .button {
@@ -314,6 +315,7 @@ h3 {
     letter-spacing: 0;
     color: #888888;
     opacity: 1;
+    white-space: nowrap
 }
 
 .form-descr {
