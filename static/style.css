@@ -114,6 +114,15 @@ h2 {
     opacity: 1;
 }
 
+.prod-change {
+    position: absolute;
+    top: 21.836%;
+    left: 19%;
+    width: 931px;
+    height: 1480px;
+    opacity: 1;
+}
+
 .pos1 {
     position: relative;
 }
@@ -213,7 +222,7 @@ h2 {
     border-radius: 4px;
     opacity: 1;
     text-align: left;
-    font: Regular 16px/16px Helvetica Neue;
+    font: 16px/16px Helvetica;
     letter-spacing: 0;
     color: #888888;
     padding: 6px 68px 6px 69px;
@@ -290,36 +299,36 @@ h2 {
     position: relative;
 }
 
-.first-prod-create {
+.prod-create0 {
     position: absolute;
-    top: 57.837%;
+    top: 470%; /*57.837%;*/
     left: 0px;
     width: 201px;
     height: 350px;
     opacity: 1;
 }
 
-.second-prod-create {
+.prod-create1 {
     position: absolute;
-    top: 57.837%;
+    top: 470%;
     left: 241px;
     width: 201px;
     height: 350px;
     opacity: 1;
 }
 
-.third-prod-create {
+.prod-create2 {
     position: absolute;
-    top: 57.837%;
+    top: 70%;
     left: 482px;
     width: 201px;
     height: 350px;
     opacity: 1;
 }
 
-.fourth-prod-create {
+.prod-create3 {
     position: absolute;
-    top: 57.837%;
+    top: 70%;
     left: 723px;
     width: 201px;
     height: 350px;

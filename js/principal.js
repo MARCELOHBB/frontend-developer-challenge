@@ -2,12 +2,25 @@ function createProd(){
     var prod = document.createElement("ul");
 
     var imge = document.createElement("li");
+    imge.classList.add("img");
+
     var name = document.createElement("li");
+    name.classList.add("name-prod");
+
     var descri = document.createElement("li");
+    descri.classList.add("descri");
+
     var price = document.createElement("li");
+    price.classList.add("price");
+
     var discountPrice = document.createElement("li");
+    discountPrice.classList.add("discount-price");
+
     var parcel = document.createElement("li");
+    parcel.classList.add("parcel");
+
     var buttonBuy = document.createElement("li");
+    buttonBuy.classList.add("button");
 
     imge.textContent = "img";
     name.textContent = "Nome do produto";
@@ -28,16 +41,24 @@ function createProd(){
     return(prod);
 }
 
+function changeClass(cla, before, after) {
+    cla.classList.remove(before);
+    cla.classList.add(after);
+}
+
 var buttonMore = document.querySelector(".more-prod");
 buttonMore.addEventListener("click", function(event) {
     event.preventDefault();
 
     var division = document.querySelector(".prod");
-    
+    changeClass(division, "prod", "prod-change");
+
     var pos = document.createElement("div");
+    pos.classList.add("pos-create");
 
     for(i=0; i<4; i++){
         var product = createProd();
+        product.classList.add("prod-create"+String(i));
         pos.appendChild(product);
     }
 
