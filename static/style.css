@@ -52,6 +52,10 @@ header {
     opacity: 1;
 }
 
+body {
+    position: relative;
+}
+
 .links {
     position: absolute;
     top: 230px;
@@ -337,8 +341,9 @@ h2 {
 
 .more-prod {
     position: absolute;
-    top: 60.645%;
+    /*top: 60.645%;*/
     left: 41.333%;
+    bottom: 37.419%;
     width: 260px;
     height: 39px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -355,7 +360,8 @@ h2 {
 
 h3 {
     position: absolute;
-    top: 70.719%;
+    /*top: 70.719%;*/
+    bottom: 28.188%;
     left: 43.666%;
     width: 204px;
     height: 22px;
@@ -369,8 +375,10 @@ h3 {
 
 .form-descr {
     position: absolute;
-    top: 73.995%;
+    /*top: 73.995%;*/
+    bottom: 27.146%;
     left: 32.2%;
+    margin-top: 39px;
     width: 534px;
     height: 16px;
     text-align: center;
@@ -382,7 +390,8 @@ h3 {
 
 form {
     position: absolute;
-    top: 76.724%;
+    /*top: 76.724%;*/
+    bottom: 22.580%;
     left: 26%;
     width: 720px;
     height: 51px;
@@ -422,7 +431,7 @@ form {
 }
 
 .in-mail {
-    position: absolute;
+    
     display: block;
     margin-left: 380px;
     width: 340px;
@@ -435,7 +444,8 @@ form {
 
 .send {
     position: absolute;
-    top: 81.736%;
+    /*top: 81.736%;*/
+    bottom: 16.327%;
     left: 41.3333%;
     width: 260px;
     height: 39px;
