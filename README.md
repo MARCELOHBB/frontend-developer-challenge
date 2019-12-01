@@ -1,6 +1,22 @@
 Starting challenge!!!!!!!
 
-..........................
+*About this project:
+--------------------
+This is a landing page layout that lists the products for sale, and a form for sharing.
+Only the button for "more products" is functional, the rest remains static.
+
+*Project organisation:
+----------------------
+The .css files are on the static page, the javascript file in the js folder and the html in the parent folder.
+
+*Usage:
+--------
+You only need to open the html file with the browse of your choice to see the layout working.
+
+
+
+*Coding process description:
+-----------------------------
 
 TEMPLATE, HTML AND CSS
 
@@ -15,7 +31,16 @@ For the product display part I used two DIVs to align the two product lines, eac
 Seeing that I used absolute measurements, I noticed that when the screen changes size the elements move and become misaligned, but I have not yet found a way to follow the given parameters and make the screen responsive. Still working on it.
 
 Relative measures were used, in this case the percentage, for the best usability of the page, thus reducing the number of element misalignment when changing the screen size.
+..............................................................................................
 
 JAVASCRIPT
 
 ..............................................................................................
+
+I started by adding a click event to the button. I need it to add new elements to the DIV. A specific function has been made for creating the product lists and the division they would be inserted into. Inside the enventListener, i insert the product division that was created within DIV POS.
+
+I encountered problem when inserting the new elements. The elements below do not move down,thereby overlapping with the added ones. Still working on it.
+
+Decided to change the DIV POS class to another one at the time of the click, so i created the changeClass function, I tried to anchor the elements below at the bottom of the page, but so far unsuccessfully looking for a solution yet.
+
+Since the challenge will be delivered today, unfortunately I will not be able to complete the page completely. it still need implementation/update on what I described as "still working on it" above, and feed the lists with the api products. But although I did not complete the challenge, I took it as a great learning opportunity.
